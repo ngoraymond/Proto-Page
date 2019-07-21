@@ -2,14 +2,53 @@ html, body {
     height: 100%;
   }
   
-  body {
+body {
     display: flex;
     align-items: center;
-    background: #333;
+    background: rgb(185, 179, 179);
     font-family: "PT Sans";
-    color: #777;
+    color: rgb(0, 0, 0);
   }
   
-  div {
+div {
     width: 100%;
   }
+
+#clock {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+#Intro {
+  position: absolute;
+  top: 10%;
+  font-weight: bold;
+  font-size: 300%;
+  text-align: center;
+}
+#introduction {
+  font-size: 50%;
+  font-weight: normal;
+}
+#topHeader
+{
+  top: 0px;
+  background: rgb(255,255,255);
+  color: #000000;
+}
+#icona
+{
+  position: absolute;
+  top: 2%;
+  left: 0px;
+}
+.hero-image {
+  position: relative;
+  top: -7%;
+  background-size: cover;
+  background-image: url("IMG_20190114_183215.jpg");
+  height: 70%;
+  width:100%;
+  color: #ffffff;
+}

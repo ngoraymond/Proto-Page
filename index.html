@@ -2,13 +2,23 @@
 <head>
     <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel='icon' href='icons/favicon.ico' type='image/x-icon'/>
+    <link rel="manifest" href="icons/site.webmanifest">
 </head>
 <body>
-    <div id="root"></div>
-    <l1 id="clock"></l1>
-    <l2>Raymond Ngo</l2>
-  <!-- ... other HTML ... -->
-
+    <header class="main-header" role="banner" id="topHeader">
+        <l1 id="clock"></l1>
+        <img src="icons/favicon-32x32.png" alt="personal logo" id="icona">
+    </header>
+    <div class="hero-image">
+        <div id="Intro" class="hero-text">
+            <h1>Raymond Ngo</h1>
+            <div id="introduction">Hello</div>
+          </div>
+    </div>
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
