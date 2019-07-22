@@ -31,7 +31,7 @@ div {
   font-size: 50%;
   font-weight: normal;
 }
-#topHeader
+.main-header
 {
   top: 0px;
   background: rgb(255,255,255);
@@ -43,11 +43,11 @@ div {
   top: 2%;
   left: 0px;
 }
-.hero-image {
+.heroImage {
   position: relative;
   top: -7%;
   background-size: cover;
-  background-image: url("IMG_20190114_183215.jpg");
+  background-image: url("images/IMG_20190114_183215.jpg");
   height: 70%;
   width:100%;
   color: #ffffff;

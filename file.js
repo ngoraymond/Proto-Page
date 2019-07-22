@@ -43,6 +43,23 @@ class Clock extends React.Component{
         </h1>);
     }
   }
-  //ReactDOM.render(<Tmp /> ,document.getElementById('root'));
+ //ReactDOM.render(<Tmp /> ,document.getElementById('root'));
+
+
+ //Photo Changing
+ var iAmAt = "SFO";
+ var collegeDate = new Date(2019,7,26);
+ var endDate = new Date(2019,12,20);
+ var currentDate = new Date();
+ var atSchool = (currentDate>collegeDate) && (currentDate<endDate);
+ if(atSchool)
+ {
+   document.getElementById("introduction").innerHTML = "I am currently at Pittsburgh.";
+ }
+ else
+ {
+   document.getElementById("introduction").innerHTML = "I am currently at San Francisco.";
+   //document.getElementsByClassName("heroImage").style.backgroundImage = "url('images/20190607_143023.jpg')";
+ }
   ReactDOM.render(<Clock /> ,document.getElementById('clock'));
   //document.getElementById("test").innerHTML = "Testing if formatting works";
