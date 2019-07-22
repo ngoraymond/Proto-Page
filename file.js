@@ -59,6 +59,7 @@ class Clock extends React.Component{
  else
  {
    document.getElementById("introduction").innerHTML = "I am currently at San Francisco.";
+   document.getElementById
    //document.getElementsByClassName("heroImage").style.backgroundImage = "url('images/20190607_143023.jpg')";
  }
   ReactDOM.render(<Clock /> ,document.getElementById('clock'));
