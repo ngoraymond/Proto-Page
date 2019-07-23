@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    margin-bottom: 10%;
     background: rgb(255, 255, 255);
     font-family: "sans-serif";
     color: rgb(0, 0, 0);
@@ -23,6 +24,9 @@ h2 {
 }
 .main-header
 {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   background-color: #0055aa;
   color: #ffffff;
 }
@@ -50,7 +54,7 @@ h2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   color: #ffffff;
   display: flex;
@@ -61,4 +65,16 @@ h2 {
   text-align: center;
   font-weight: bold;
   font-size: 200%;
+}
+.botlinks
+{
+  width: 200px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  border: 3px solid black;
 }
