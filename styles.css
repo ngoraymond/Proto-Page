@@ -1,7 +1,7 @@
 body {
     margin: 0px;
-    background: rgb(185, 179, 179);
-    font-family: "PT Sans";
+    background: rgb(255, 255, 255);
+    font-family: "sans-serif";
     color: rgb(0, 0, 0);
 }
 #clock {
@@ -49,9 +49,16 @@ h2 {
   background-image: url("images/IMG_20190114_183215.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   height: 100vh;
   width: 100vw;
   color: #ffffff;
   display: flex;
   justify-content: center;
+}
+.proj {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
 }
