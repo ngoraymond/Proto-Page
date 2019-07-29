@@ -3,7 +3,7 @@ body {
     margin-bottom: 10%;
     background: rgb(255, 255, 255);
     font-family: "sans-serif";
-    color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
 }
 #clock {
     position: absolute;
@@ -28,7 +28,7 @@ h2 {
   position: -webkit-sticky;
   top: 0;
   background-color: #0055aa;
-  color: #ffffff;
+  color: solid #ffffff;
 }
 #icona
 {
