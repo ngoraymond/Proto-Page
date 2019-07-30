@@ -3,7 +3,10 @@ body {
     margin-bottom: 10%;
     background: rgb(255, 255, 255);
     font-family: "sans-serif";
-    color: rgb(255,255,255);
+    color: rgb(0, 0, 0);
+}
+.menu {
+  color: #ffffff;
 }
 #clock {
     position: absolute;
@@ -14,6 +17,7 @@ body {
   font-weight: bold;
   font-size: 300%;
   text-align: center;
+  text-shadow: 0 0 5px #000000;
 }
 h2 {
   font-size: 75%;
@@ -54,6 +58,7 @@ h2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-color: #0055aa;
   height: 80vh;
   width: 100%;
   color: #ffffff;

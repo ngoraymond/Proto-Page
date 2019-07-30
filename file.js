@@ -54,7 +54,7 @@ class Clock extends React.Component{
  var atSchool = (currentDate>collegeDate) && (currentDate<endDate);
  if(atSchool)
  {
-   document.getElementById("introduction").innerHTML = "I am currently at Pittsburgh.";
+   document.getElementById("introduction").innerHTML = "I am currently at school in Pittsburgh.";
  }
  else
  {
