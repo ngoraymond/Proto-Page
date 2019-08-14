@@ -1,5 +1,5 @@
-var dataCacheName = 'template-pwa';
-var cacheName = 'template-pwa';
+var dataCacheName = 'pwa';
+var cacheName = 'pwa';
 var filesToCache = [
   // Uncomment the block below when you are ready to cache files. Feel free to add any other files that
   // you wish to cache. Be warned that caching files requires that you clear the cache after making updates.
