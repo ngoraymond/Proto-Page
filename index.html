@@ -45,8 +45,9 @@
         </p>
       </div>
     </main>
-    <script src="upup.min.js"></script>
+    <!--<script src="upup.min.js"></script>-->
       <script>
+        /*
         UpUp.start({
           'content-url': 'offline.html',
           'assets': [
@@ -56,16 +57,15 @@
             'manifest.json'
           ]
         });
+        */
       </script>
     <script>
-      /*
         if('serviceWorker' in navigator) {
           navigator.serviceWorker
                    .register('/sw.js')
                    .then(function() { console.log("Service Worker Registered"); });
         }
-        */
-    </script>
+    </script> 
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
