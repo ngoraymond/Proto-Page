@@ -43,7 +43,7 @@
             "sizes" : "72x72"            
         }
     ],
-    "start_url" : "/index.html",
+    "start_url" : "index.html",
     "background_color" : "#0055aa",
     "theme_color" : "#0055aa",
     "display" : "standalone"
