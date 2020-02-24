@@ -48,8 +48,8 @@ class Clock extends React.Component{
 
  //Photo Changing
  var iAmAt = "SFO";
- var collegeDate = new Date(2019,7,26);
- var endDate = new Date(2019,12,20);
+ var collegeDate = new Date(2020,1,13);
+ var endDate = new Date(2020,5,20);
  var currentDate = new Date();
  var atSchool = (currentDate>collegeDate) && (currentDate<endDate);
  if(atSchool)
