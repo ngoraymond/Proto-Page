@@ -2,4 +2,4 @@
 
 My personal homepage
 
-[ngoraymond.tk]
+https://ngoraymond.tk
